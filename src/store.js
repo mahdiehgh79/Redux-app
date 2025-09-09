@@ -106,5 +106,5 @@ function updateName(fullName) {
 }
 
 store.dispatch(createCustomer("Jonas Schmedtmann", "24343434"));
-store.dispatch(deposit(250));
+store.dispatch(deposit(500));
 console.log(store.getState());
